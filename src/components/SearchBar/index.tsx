@@ -25,12 +25,6 @@ export const SearchComp = () => {
     return (
         <InstantSearch
             searchClient={searchClient} indexName="baskeasy-products"
-            initialUiState={{
-                YourIndexName: {
-                    query: 'banana',
-                    page: 5,
-                },
-            }}
             stalledSearchDelay={500}
         >
             <SearchBox placeholder="Search for products" />
