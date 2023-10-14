@@ -3,5 +3,5 @@
     height: 100% !important;
     display: grid !important;
     grid-gap: 0.5rem !important;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
 }
