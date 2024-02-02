@@ -1,0 +1,424 @@
+{
+	"info": {
+		"_postman_id": "ec669118-9a3c-4648-9caf-2b477310d3f8",
+		"name": "Baskeasy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14575450",
+		"_collection_link": "https://coursemappers.postman.co/workspace/Coursepanel~0a86b1c5-87ed-4135-99a1-a97731192b3b/collection/14575450-ec669118-9a3c-4648-9caf-2b477310d3f8?action=share&source=collection_link&creator=14575450"
+	},
+	"item": [
+		{
+			"name": "Mimic Walmart Network call",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "www.walmart.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "abqme=true; _pxhd=81e9f7bbf2c1e65ad31391f834aa9a2db8169e5989901db262f3cabb13e5c75a:b5f4d8db-37f5-11ee-a1c0-cf362425ede0; vtc=eoYCLy01GTt26iQNRmBrUY; AID=wmlspartner%3D0%3Areflectorid%3D0000000000000000000000%3Alastupd%3D1692613963315; sod=torbit1693208461; adblocked=true; locGuestData=eyJpbnRlbnQiOiJTSElQUElORyIsImlzRXhwbGljaXQiOmZhbHNlLCJzdG9yZUludGVudCI6IlBJQ0tVUCIsIm1lcmdlRmxhZyI6ZmFsc2UsImlzRGVmYXVsdGVkIjpmYWxzZSwicGlja3VwIjp7Im5vZGVJZCI6IjIyODAiLCJ0aW1lc3RhbXAiOjE2OTUxODUzMTY5MTIsInNlbGVjdGlvblR5cGUiOiJMU19TRUxFQ1RFRCJ9LCJzaGlwcGluZ0FkZHJlc3MiOnsidGltZXN0YW1wIjoxNjk1MTg1MzE2OTEyLCJ0eXBlIjoicGFydGlhbC1sb2NhdGlvbiIsImdpZnRBZGRyZXNzIjpmYWxzZSwicG9zdGFsQ29kZSI6Ijk0MDQzIiwiY2l0eSI6Ik1vdW50YWluIFZpZXciLCJzdGF0ZSI6IkNBIiwiZGVsaXZlcnlTdG9yZUxpc3QiOlt7Im5vZGVJZCI6IjIyODAiLCJ0eXBlIjoiREVMSVZFUlkiLCJ0aW1lc3RhbXAiOjE2OTUxODI1NjE0NjEsInNlbGVjdGlvblR5cGUiOiJMU19TRUxFQ1RFRCIsInNlbGVjdGlvblNvdXJjZSI6IlRFVEhFUkVEIn1dfSwicG9zdGFsQ29kZSI6eyJ0aW1lc3RhbXAiOjE2OTUxODUzMTY5MTIsImJhc2UiOiI5NDA0MyJ9LCJtcCI6W10sInZhbGlkYXRlS2V5IjoicHJvZDp2Mjo1MTc0ZDhmZS05MzM1LTRlNDUtOTIyMi0wMzMzMWFjYTUyZDQifQ%3D%3D; CID=f108ddf9-9ea6-45bb-a8ad-f97cba140f35; hasCID=1; SPID=c0d9dea088c2906d33da74bf5b0f93d9486645f2c6b20e3d2cc6a99523fb8c73b79b8c91c55c41e76478db4ebfe37978wmcxo; type=REGISTERED; _vc=%2F1f1Sd2S1P9Kv66vnW98NXTNLA8aYBZ1Vqka%2F0JXpcg%3D; customer=%7B%22firstName%22%3A%22Ankit%22%2C%22lastNameInitial%22%3A%22S%22%7D; _m=5; _mc=SbQAG5diAkyBRmJlus3JJo1Kc%2F9dxZfuZ%2FOSZTNbbII%3D; TBV=f; pxcts=ba4a1b02-65aa-11ee-894a-6485c2656cf3; _pxvid=b5f4d8db-37f5-11ee-a1c0-cf362425ede0; akavpau_p1=1696954844~id=e8d41ec9123672a8f13ecd23ec46c154; _sp_id.ad94=61f3158e-23d5-4b30-a482-73f5e8a3a21e.1696483136.2.1696954245.1696483136.c5dc0850-6a68-4748-b583-48d034bdf031; userContext=eyJhZGRyZXNzRGF0YSI6bnVsbCwiaGFzSXRlbVN1YnNjcmlwdGlvbiI6ZmFsc2UsImhhc01lbWJlcnNoaXBJbmZvIjp0cnVlLCJpc0RlZmF1bHQiOmZhbHNlLCJwYXltZW50RGF0YSI6eyJjYXBpdGFsT25lQmFubmVyU25vb3plVFMiOjAsImhhc0NhcE9uZSI6ZmFsc2UsImhhc0NhcE9uZUxpbmtlZCI6ZmFsc2UsImhhc0NyZWRpdENhcmQiOnRydWUsImhhc0RpcmVjdGVkU3BlbmRDYXJkIjpmYWxzZSwiaGFzRUJUIjpmYWxzZSwiaGFzR2lmdENhcmQiOmZhbHNlLCJzaG93Q2FwT25lQmFubmVyIjp0cnVlLCJ3cGx1c05vQmVuZWZpdEJhbm5lciI6dHJ1ZSwicGF5bWVudE1ldGhvZFRhZ3MiOltdfSwicHJvZmlsZURhdGEiOnsiaXNBc3NvY2lhdGUiOmZhbHNlLCJpc1Rlc3RBY2NvdW50IjpmYWxzZSwibWVtYmVyc2hpcE9wdEluIjp7ImlzT3B0ZWRJbiI6ZmFsc2UsIm9wdGVkSW5BdHRyaWJ1dGVJZCI6IjMxNjJjYmFmLWU0MTgtNDk4Mi1hM2FlLTU5MWQ2MjRhOWI4NiJ9LCJjdXN0b21lclR5cGUiOiJJTkRJVklEVUFMIiwibWVtYmVyc2hpcFBsYW5UeXBlIjp7InBsYW5UeXBlIjoiTk9ORSJ9fSwic2hvd1NpZ25VcFNwbGFzaCI6dHJ1ZSwiaWFwQXNzdXJlZCI6ZmFsc2V9; _lat=e284a4729db707bba543472769abc028wmcxo; _tpl=90; _tplc=HeETaSwVjov3hGL40RNboCafekR%2Bqd0K898XQq4Qjnk%3D; auth=MTAyOTYyMDE4K2w7xKsAmURKDUb8Sbiv8UTvUuq%2Bi4Zfox%2FUVhJtxW2kSfDPMQaZVEmaCDi7Jvc8%2FMxFOe0DdtQPMEOHgMhwfW6A1CCv09W7V9y7NbV4Q3G7kkCwJ1ta9o%2FdFdw9K4O3y9u4vj%2Bxm%2F%2BZ4R%2Fe%2BDQOOSfXYggteGLn62p%2BspByuSOkHimtEY911M7oqa0%2FyyZJW6Vfl3Fu1pKRdDG2gDM6ETQjcaFzyzNzL1sFhzjkDLN6rOYyJCcdY7mbcQXwOBTf0bgD%2BD%2BeFW8tExbLzto9EvAi3LLhIvWL%2FK30ZucWeQ28bps8dRNqJV%2FzLoi8dvu21ehi%2Fk%2FWrtjR9b02e2zdPYEFJWm75Ukm%2B3L3SCS%2B6B%2F4z0U2QtfQAfVb8hrifIPV3uV%2FkH6bpgwCWkg9L8xDM4xhAvliraCvPFILjCsY%2F28%3D; _tsc=MTQyODYyMDIyObOHKi3znzyyLQRvg7QwRY6xUTRZMIsMPISIi4vew3mev4hh0wuAt0Ft6FOeTiSgsevcxmu%2BVl1RH8XNhb1uycrCvISLCRkCgKID4JbOSBINr6PzlP7wCg9u%2BYlpypUNZsnGKp8ovqZ0WAj6zHZ0ZSkGGXFEH0Qb6YXLcvXTxASUN2GtG064haLJNy9nOVrOilICzL7KMAsVmk%2FcZnAGjEBcdG%2FyRGrKUYZPIyHwnQtdlTbyLOW3sMPapBJK7edvm1uWI5o09fUAPFL3nK%2Bfh0Ovc6Shye%2FliaibYngTIf2BMx5TxEbr7bteq1ScD%2B8kTexu5mF8RNkPZrfatf4Im%2BN%2B%2B15JpiZrhkEsYr54En8526Ol%2FIitSBsLzaeoYj4eCqnc0XRUOgYkN0lBL0a7JUZPj%2BwnWuA2DMqAHM7BDNzYGrTQwDvXKV2V727%2FvY27IWO2LfQ8%2FbhG%2Bv%2FW4BFdW4w%3D; locDataV3=eyJpc0RlZmF1bHRlZCI6ZmFsc2UsImlzRXhwbGljaXQiOmZhbHNlLCJpbnRlbnQiOiJERUxJVkVSWSIsInBpY2t1cCI6W3siYnVJZCI6IjAiLCJub2RlSWQiOiIyMjgwIiwiZGlzcGxheU5hbWUiOiJNb3VudGFpbiBWaWV3IFN0b3JlIiwibm9kZVR5cGUiOiJTVE9SRSIsImFkZHJlc3MiOnsicG9zdGFsQ29kZSI6Ijk0MDQwIiwiYWRkcmVzc0xpbmUxIjoiNjAwIFNob3dlcnMgRHIiLCJjaXR5IjoiTW91bnRhaW4gVmlldyIsInN0YXRlIjoiQ0EiLCJjb3VudHJ5IjoiVVMiLCJwb3N0YWxDb2RlOSI6Ijk0MDQwLTE0MzQifSwiZ2VvUG9pbnQiOnsibGF0aXR1ZGUiOjM3LjQwMDg0NiwibG9uZ2l0dWRlIjotMTIyLjEwOTc0OH0sImlzR2xhc3NFbmFibGVkIjp0cnVlLCJzY2hlZHVsZWRFbmFibGVkIjp0cnVlLCJ1blNjaGVkdWxlZEVuYWJsZWQiOnRydWUsImh1Yk5vZGVJZCI6IjIyODAiLCJzdG9yZUhycyI6IjA2OjAwLTIzOjAwIiwic3VwcG9ydGVkQWNjZXNzVHlwZXMiOlsiUElDS1VQX0NVUkJTSURFIiwiUElDS1VQX0lOU1RPUkUiXSwic2VsZWN0aW9uVHlwZSI6IkNVU1RPTUVSX0NPTlZFUlRFRCJ9XSwic2hpcHBpbmdBZGRyZXNzIjp7ImlkIjoiOGI3NTEwMmQtYTZmZi00ODVkLWE5NWUtZWY1MGVmNjFlZDZlIiwiYWRkcmVzc0xpbmVPbmUiOiI1NTUgVyBNaWRkbGVmaWVsZCBSZCIsImFkZHJlc3NMaW5lVHdvIjoiQXB0IEcyMDEiLCJsYXRpdHVkZSI6MzcuMzk5NDgyLCJsb25naXR1ZGUiOi0xMjIuMDcxODg4LCJwb3N0YWxDb2RlIjoiOTQwNDMzNTYyIiwiY2l0eSI6Ik1vdW50YWluIFZpZXciLCJzdGF0ZSI6IkNBIiwiY291bnRyeUNvZGUiOiJVU0EiLCJpc0Fwb0ZwbyI6ZmFsc2UsImlzUG9Cb3giOmZhbHNlLCJhZGRyZXNzVHlwZSI6IlJFU0lERU5USUFMIiwibG9jYXRpb25BY2N1cmFjeSI6ImhpZ2giLCJtb2RpZmllZERhdGUiOjE2OTUyMjY3NDEwMDEsImdpZnRBZGRyZXNzIjpmYWxzZSwiZmlyc3ROYW1lIjoiQW5raXQiLCJsYXN0TmFtZSI6IlNhbmdodmkiLCJ0aW1lWm9uZSI6IkFtZXJpY2EvTG9zX0FuZ2VsZXMifSwiYXNzb3J0bWVudCI6eyJub2RlSWQiOiIyMjgwIiwiZGlzcGxheU5hbWUiOiJNb3VudGFpbiBWaWV3IFN0b3JlIiwiYWNjZXNzUG9pbnRzIjpbeyJhY2Nlc3NUeXBlIjoiREVMSVZFUllfQUREUkVTUyJ9XSwic3VwcG9ydGVkQWNjZXNzVHlwZXMiOlsiREVMSVZFUllfQUREUkVTUyJdLCJpbnRlbnQiOiJERUxJVkVSWSJ9LCJpbnN0b3JlIjpmYWxzZSwiZGVsaXZlcnkiOnsiYnVJZCI6IjAiLCJub2RlSWQiOiIyMjgwIiwiZGlzcGxheU5hbWUiOiJNb3VudGFpbiBWaWV3IFN0b3JlIiwibm9kZVR5cGUiOiJTVE9SRSIsImFkZHJlc3MiOnsicG9zdGFsQ29kZSI6Ijk0MDQwIiwiYWRkcmVzc0xpbmUxIjoiNjAwIFNob3dlcnMgRHIiLCJjaXR5IjoiTW91bnRhaW4gVmlldyIsInN0YXRlIjoiQ0EiLCJjb3VudHJ5IjoiVVMiLCJwb3N0YWxDb2RlOSI6Ijk0MDQwLTE0MzQifSwiZ2VvUG9pbnQiOnsibGF0aXR1ZGUiOjM3LjQwMDg0NiwibG9uZ2l0dWRlIjotMTIyLjEwOTc0OH0sImlzR2xhc3NFbmFibGVkIjp0cnVlLCJzY2hlZHVsZWRFbmFibGVkIjp0cnVlLCJ1blNjaGVkdWxlZEVuYWJsZWQiOnRydWUsImFjY2Vzc1BvaW50cyI6W3siYWNjZXNzVHlwZSI6IkRFTElWRVJZX0FERFJFU1MifV0sImh1Yk5vZGVJZCI6IjIyODAiLCJpc0V4cHJlc3NEZWxpdmVyeU9ubHkiOmZhbHNlLCJzdXBwb3J0ZWRBY2Nlc3NUeXBlcyI6WyJERUxJVkVSWV9BRERSRVNTIl0sInNlbGVjdGlvblR5cGUiOiJMU19TRUxFQ1RFRCJ9LCJyZWZyZXNoQXQiOjE2OTcyMzY1NjMzNDcsInZhbGlkYXRlS2V5IjoicHJvZDp2MjpmMTA4ZGRmOS05ZWE2LTQ1YmItYThhZC1mOTdjYmExNDBmMzUifQ%3D%3D; assortmentStoreId=2280; hasLocData=1; userAppVersion=us-web-1.103.0-87cb97a69fa41e97cf5fc7ce18fa7e3101592ca5-1012; bstc=ZYN6JzGnJTgU12_0i5vwD8; mobileweb=0; xpth=x-o-mart%2BB2C~x-o-mverified%2Btrue; exp-ck=-67O814358O14DB4w27qUrE19KF5u1ADf131Ahrqe2B2XF_1BTelN1B_CjR1BukPC1Cvn2u1DNWch1FExf71H_d152INpvq1IU00C1IXVff1JEPfa1JeoTT1KvYZX1O5h3M1OAdn71Pm4tk1QcqDD1RYq-N1Sh_0W1TRM3F3UON2y1VCkP21VFZ_-2Wa1ct3WxDHa2cqiF51gPw9g2ibyjh2lEUOy1lKy7O1qw4oL2rDWW02rsHav1; xptwj=qq:7d5c51c05fff509de568:6ORm+WMaFtbX68Uvmq5PQi6xMRuqAeFe3jeSw3wb5jMsf06KoPhHwc/Ob+j3T26dQNMWeBki7jxa580s+tNr72cPWy2MjWXv6UVU2Q/klJmTIFk+Usdjw/WQjbCUpF7hYYfk9JekpF3SuikbXTgs2ngMhOHKLAmPeFfK6r6/w0Ruf2T+AEGkovMHzRyydejgBBFz/9Yv9GRGONiZP/w10xJvE4I8XqBsIj4k3nf3Xag=; akavpau_p2=1697233564~id=b1dcd0b49063da27a181eea60e7191c5; ak_bmsc=81C5E0AC1A66B60E1AA66497AE2D8F64~000000000000000000000000000000~YAAQzk9DF27e3vmKAQAAqcn3KhWibbBgCVIToXIq/GC4Zc+V43bn+wHoFYEB1WoxRUQ9LjhyX0zxXLWKje/XKYYlN551I/pSb7JLjxziJFYPoJCtvYyMmKhDk1Q8uHgivf4piXS/kfrOlHxta+Oj1Avx5bOobKzPeS7J0xfUtm4aFt5FEWChkEIROFqpSTHoEuunSA+xLFPPAgtxJ70cDEttlsl60fy26U2rJ7CntYsnd+UzeFCbNEo/maX/ptPTnLzolMXDgw5+9aHPQLrTsi3ddoOPuCL5gunLqYUBoG+w/R8Fani/711QMH3dpu9jmctZTF+OTWn2PTGJqCVzjPJI8dUQ2oR9jjwwNnGUZQMauH4bvHsPqJco5o5JkfowMLFCGD/YlKwr; _astc=9824c175b0f9f09ae9b4c8df726dc155; xptc=assortmentStoreId%2B2280; xpa=-67O8|3DBV9|4358O|4DB4w|4eUFr|5Za-l|7AzFI|7qUrE|9FX95|9KF5u|ADf13|AWebV|Ahrqe|B2XF_|B8nGZ|BTelN|B_CjR|BukPC|Cvn2u|DNWch|FExf7|FzTTw|H_d15|INpvq|IU00C|IXVff|JEPfa|JeoTT|KvYZX|N3ofr|O5h3M|OAdn7|PLRdE|Pm4tk|QcqDD|QyOLc|R--ax|R9TfJ|RYq-N|S6qTw|Sh_0W|TL357|TRM3F|TdyEg|UON2y|VCkP2|VFZ_-|Wa1ct|WxDHa|WxEQT|YwDVf|b8OpP|bNWAd|bXr-H|cqiF5|dDnTr|gPw9g|hQPwI|ibyjh|lEUOy|lKy7O|pyVOq|qw4oL|rDWW0|rl7pi|rsHav|x0dTP|xT80O|xg7kB; _px3=ca9f03e43c9bd21d07ae4055969dc9bd874511e729ba3f374b9164621ba3c29a:VaFSOFGv7Y7A9HwDd3gfMbE4hwibgteptZRafjp8H/ePpHCB2aLh8EIqOVubo+jhHa66DxoPK+nEPTZu0Ajbpw==:1000:riODP7WJTm2Frkx/QCFGulbaeaOwFaGk/ZkLWnSfnKdwEEespL3+XwCrJnvS3h4Yo/3RisGOrNakataBl1zbz+kZfHtOdFAsVSO/EdTnrigXnLY45hBx3Y0btE9EdtXcTrPH5Zm7Tuv7Dg8HrZ08+fAvVSNiNcb8fn2xn1tJT7t6fn16yWYGnPfmZZeKX4Qp+9FvNpHL854PI3k5qpgsiw9aRK8IUwDmMx3vORd1bjA=; _lat=7f8aae3981f7aee72b72e5cfd0c2fdcbwmjet; com.wm.reflector=\"reflectorid:0000000000000000000000@lastupd:1697232968000@firstcreate:1691723897064\"; xpm=1%2B1697232966%2BeoYCLy01GTt26iQNRmBrUY~f108ddf9-9ea6-45bb-a8ad-f97cba140f35%2B0; xptwg=2013812073:24F305FC69FDE80:5D80B93:515EC06:1CEC511A:6068DD6B:; _pxde=ecf9623d3b52f4788ef52999fbdfce06d1406090c56218691124172f85f2e25c:eyJ0aW1lc3RhbXAiOjE2OTcyMzI5NzY3NTJ9; TS012768cf=0119181c4eeb1efa4769b747f22c0e934895e4b0e9af1910575eac5f906554f4b95deab4b53ef03f3671d455aeff19ca21f7f838e2; TS01a90220=0119181c4eeb1efa4769b747f22c0e934895e4b0e9af1910575eac5f906554f4b95deab4b53ef03f3671d455aeff19ca21f7f838e2; TS2a5e0c5c027=08a38d350aab20007b86b2d5901d1daab55d39207763f4f3fae68e9a9ee33bd4b358c58a2f495510081a35629911300083e0ba6c9ca3a34f4796365ae9faf0935a2d0a8aa4dc841c3d0c6d4b065e96eb80d9579f931cc3bb38e0e03bfb5bb17e; bm_sv=94A4ABA8B6BA42748B39C798B85AE852~YAAQy09DF1poxwOLAQAAkP/3KhVpz+sXW9ympzIn7RKbv9IGrtMkw6jy+bpuQ62gYW3H3KKEw+EjqUeJdcGugG0BgjliFw2t2tGkBhrPfylRYZcc5aSvGIxy0wVDgy1FTSWiqGHWvfKIzq5rH8SwSYex+Mv4KmGUjq86BKCmEYk+pKFA3WrK8nXt6gCOvo/x97ahscbZJjxwRCVAGiLI8PcLZI9TkhhoQBcdne0DnF9mJ7T87yruK05FOL/PEqAnv/c=~1"
+					},
+					{
+						"key": "device_profile_ref_id",
+						"value": "scI09kIAtvzLHMAULdSBBswMhAzRQNRUGcgf"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.walmart.com/search?q=banana"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Brave\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "traceparent",
+						"value": "00-12e8cdc29e0e5866eca9f83c2d74f0df-9eb2d8bf678d9077-00"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "wm_mp",
+						"value": "true"
+					},
+					{
+						"key": "wm_page_url",
+						"value": "https://www.walmart.com/search?q=banana"
+					},
+					{
+						"key": "wm_qos.correlation_id",
+						"value": "rX-q8hukUOFGFojsraPecwLPzI7G72C9RxmQ"
+					},
+					{
+						"key": "x-apollo-operation-name",
+						"value": "Search"
+					},
+					{
+						"key": "x-enable-server-timing",
+						"value": "1"
+					},
+					{
+						"key": "x-latency-trace",
+						"value": "1"
+					},
+					{
+						"key": "x-o-bu",
+						"value": "WALMART-US"
+					},
+					{
+						"key": "x-o-ccm",
+						"value": "server"
+					},
+					{
+						"key": "x-o-correlation-id",
+						"value": "rX-q8hukUOFGFojsraPecwLPzI7G72C9RxmQ"
+					},
+					{
+						"key": "x-o-gql-query",
+						"value": "query Search"
+					},
+					{
+						"key": "x-o-mart",
+						"value": "B2C"
+					},
+					{
+						"key": "x-o-platform",
+						"value": "rweb"
+					},
+					{
+						"key": "x-o-platform-version",
+						"value": "us-web-1.103.0-87cb97a69fa41e97cf5fc7ce18fa7e3101592ca5-1012"
+					},
+					{
+						"key": "x-o-segment",
+						"value": "oaoh"
+					}
+				],
+				"url": {
+					"raw": "https://www.walmart.com/orchestra/snb/graphql/Search/8fda6bfee2198e53d801ff1b8dbdb11f8d604542adb91463fdb83d0ad33465fd/search?variables=%7B%22id%22%3A%22%22%2C%22dealsId%22%3A%22%22%2C%22query%22%3A%22banana%22%2C%22page%22%3A1%2C%22prg%22%3A%22desktop%22%2C%22catId%22%3A%22%22%2C%22facet%22%3A%22%22%2C%22sort%22%3A%22best_match%22%2C%22rawFacet%22%3A%22%22%2C%22seoPath%22%3A%22%22%2C%22ps%22%3A40%2C%22limit%22%3A40%2C%22ptss%22%3A%22%22%2C%22trsp%22%3A%22%22%2C%22beShelfId%22%3A%22%22%2C%22recall_set%22%3A%22%22%2C%22module_search%22%3A%22%22%2C%22min_price%22%3A%22%22%2C%22max_price%22%3A%22%22%2C%22storeSlotBooked%22%3A%22%22%2C%22additionalQueryParams%22%3A%7B%22hidden_facet%22%3Anull%2C%22translation%22%3Anull%2C%22isMoreOptionsTileEnabled%22%3Atrue%7D%2C%22searchArgs%22%3A%7B%22query%22%3A%22banana%22%2C%22cat_id%22%3A%22%22%2C%22prg%22%3A%22desktop%22%2C%22facet%22%3A%22%22%7D%2C%22fitmentFieldParams%22%3A%7B%22powerSportEnabled%22%3Atrue%2C%22dynamicFitmentEnabled%22%3Afalse%2C%22extendedAttributesEnabled%22%3Afalse%7D%2C%22fitmentSearchParams%22%3A%7B%22id%22%3A%22%22%2C%22dealsId%22%3A%22%22%2C%22query%22%3A%22banana%22%2C%22page%22%3A1%2C%22prg%22%3A%22desktop%22%2C%22catId%22%3A%22%22%2C%22facet%22%3A%22%22%2C%22sort%22%3A%22best_match%22%2C%22rawFacet%22%3A%22%22%2C%22seoPath%22%3A%22%22%2C%22ps%22%3A40%2C%22limit%22%3A40%2C%22ptss%22%3A%22%22%2C%22trsp%22%3A%22%22%2C%22beShelfId%22%3A%22%22%2C%22recall_set%22%3A%22%22%2C%22module_search%22%3A%22%22%2C%22min_price%22%3A%22%22%2C%22max_price%22%3A%22%22%2C%22storeSlotBooked%22%3A%22%22%2C%22additionalQueryParams%22%3A%7B%22hidden_facet%22%3Anull%2C%22translation%22%3Anull%2C%22isMoreOptionsTileEnabled%22%3Atrue%7D%2C%22searchArgs%22%3A%7B%22query%22%3A%22banana%22%2C%22cat_id%22%3A%22%22%2C%22prg%22%3A%22desktop%22%2C%22facet%22%3A%22%22%7D%2C%22cat_id%22%3A%22%22%2C%22_be_shelf_id%22%3A%22%22%7D%2C%22enableFashionTopNav%22%3Afalse%2C%22enableRelatedSearches%22%3Atrue%2C%22enablePortableFacets%22%3Atrue%2C%22enableFacetCount%22%3Atrue%2C%22fetchMarquee%22%3Atrue%2C%22fetchSkyline%22%3Atrue%2C%22fetchGallery%22%3Afalse%2C%22fetchSbaTop%22%3Atrue%2C%22fetchDac%22%3Atrue%2C%22tenant%22%3A%22WM_GLASS%22%2C%22enableFlattenedFitment%22%3Afalse%2C%22enableMultiSave%22%3Afalse%2C%22pageType%22%3A%22SearchPage%22%7D",
+					"protocol": "https",
+					"host": [
+						"www",
+						"walmart",
+						"com"
+					],
+					"path": [
+						"orchestra",
+						"snb",
+						"graphql",
+						"Search",
+						"8fda6bfee2198e53d801ff1b8dbdb11f8d604542adb91463fdb83d0ad33465fd",
+						"search"
+					],
+					"query": [
+						{
+							"key": "variables",
+							"value": "%7B%22id%22%3A%22%22%2C%22dealsId%22%3A%22%22%2C%22query%22%3A%22banana%22%2C%22page%22%3A1%2C%22prg%22%3A%22desktop%22%2C%22catId%22%3A%22%22%2C%22facet%22%3A%22%22%2C%22sort%22%3A%22best_match%22%2C%22rawFacet%22%3A%22%22%2C%22seoPath%22%3A%22%22%2C%22ps%22%3A40%2C%22limit%22%3A40%2C%22ptss%22%3A%22%22%2C%22trsp%22%3A%22%22%2C%22beShelfId%22%3A%22%22%2C%22recall_set%22%3A%22%22%2C%22module_search%22%3A%22%22%2C%22min_price%22%3A%22%22%2C%22max_price%22%3A%22%22%2C%22storeSlotBooked%22%3A%22%22%2C%22additionalQueryParams%22%3A%7B%22hidden_facet%22%3Anull%2C%22translation%22%3Anull%2C%22isMoreOptionsTileEnabled%22%3Atrue%7D%2C%22searchArgs%22%3A%7B%22query%22%3A%22banana%22%2C%22cat_id%22%3A%22%22%2C%22prg%22%3A%22desktop%22%2C%22facet%22%3A%22%22%7D%2C%22fitmentFieldParams%22%3A%7B%22powerSportEnabled%22%3Atrue%2C%22dynamicFitmentEnabled%22%3Afalse%2C%22extendedAttributesEnabled%22%3Afalse%7D%2C%22fitmentSearchParams%22%3A%7B%22id%22%3A%22%22%2C%22dealsId%22%3A%22%22%2C%22query%22%3A%22banana%22%2C%22page%22%3A1%2C%22prg%22%3A%22desktop%22%2C%22catId%22%3A%22%22%2C%22facet%22%3A%22%22%2C%22sort%22%3A%22best_match%22%2C%22rawFacet%22%3A%22%22%2C%22seoPath%22%3A%22%22%2C%22ps%22%3A40%2C%22limit%22%3A40%2C%22ptss%22%3A%22%22%2C%22trsp%22%3A%22%22%2C%22beShelfId%22%3A%22%22%2C%22recall_set%22%3A%22%22%2C%22module_search%22%3A%22%22%2C%22min_price%22%3A%22%22%2C%22max_price%22%3A%22%22%2C%22storeSlotBooked%22%3A%22%22%2C%22additionalQueryParams%22%3A%7B%22hidden_facet%22%3Anull%2C%22translation%22%3Anull%2C%22isMoreOptionsTileEnabled%22%3Atrue%7D%2C%22searchArgs%22%3A%7B%22query%22%3A%22banana%22%2C%22cat_id%22%3A%22%22%2C%22prg%22%3A%22desktop%22%2C%22facet%22%3A%22%22%7D%2C%22cat_id%22%3A%22%22%2C%22_be_shelf_id%22%3A%22%22%7D%2C%22enableFashionTopNav%22%3Afalse%2C%22enableRelatedSearches%22%3Atrue%2C%22enablePortableFacets%22%3Atrue%2C%22enableFacetCount%22%3Atrue%2C%22fetchMarquee%22%3Atrue%2C%22fetchSkyline%22%3Atrue%2C%22fetchGallery%22%3Afalse%2C%22fetchSbaTop%22%3Atrue%2C%22fetchDac%22%3Atrue%2C%22tenant%22%3A%22WM_GLASS%22%2C%22enableFlattenedFitment%22%3Afalse%2C%22enableMultiSave%22%3Afalse%2C%22pageType%22%3A%22SearchPage%22%7D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scrape Product from Walmart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"query\":\"milk\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/walmart",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"walmart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scrape Product from Safeway",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"query\":\"banana\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/safeway",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"safeway"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/hello",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mimic Safeway Network call",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "www.safeway.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en;q=0.5"
+					},
+					{
+						"key": "cookie",
+						"value": "visid_incap_1610353=M608Ew8BTMOaQogwYtqyhWfN5mQAAAAAQUIPAAAAAACsa/1qavn5JVLEZOU/9ube; nlbi_1610353=z4ktNUswCm0/xrlr6eNT2gAAAAAelctvzFTNjEzeGT26k+1a; mbox=session#92614e825b4143179b564f6fd8dee594#1697244867; AMCVS_A7BF3BC75245ADF20A490D4D%40AdobeOrg=1; AMCV_A7BF3BC75245ADF20A490D4D%40AdobeOrg=179643557%7CMCIDTS%7C19645%7CMCMID%7C22960017238159472696630310413321514718%7CMCOPTOUT-1697250206s%7CNONE%7CvVersion%7C5.5.0; ECommBanner=safeway; abs_gsession=%7B%22info%22%3A%7B%22COMMON%22%3A%7B%22Selection%22%3A%22default%22%2C%22preference%22%3A%22J4U%22%2C%22userType%22%3A%22G%22%2C%22zipcode%22%3A%2294611%22%2C%22banner%22%3A%22safeway%22%2C%22siteType%22%3A%22C%22%2C%22customerType%22%3A%22%22%7D%2C%22J4U%22%3A%7B%22zipcode%22%3A%2294611%22%2C%22storeId%22%3A%223132%22%7D%2C%22SHOP%22%3A%7B%22zipcode%22%3A%2294611%22%2C%22storeId%22%3A%223132%22%7D%7D%7D; abs_previouslogin=%7B%22info%22%3A%7B%22COMMON%22%3A%7B%22Selection%22%3A%22default%22%2C%22preference%22%3A%22J4U%22%2C%22userType%22%3A%22G%22%2C%22zipcode%22%3A%2294611%22%2C%22banner%22%3A%22safeway%22%2C%22siteType%22%3A%22C%22%2C%22customerType%22%3A%22%22%7D%2C%22J4U%22%3A%7B%22zipcode%22%3A%2294611%22%2C%22storeId%22%3A%223132%22%7D%2C%22SHOP%22%3A%7B%22zipcode%22%3A%2294611%22%2C%22storeId%22%3A%223132%22%7D%7D%7D; SWY_SYND_USER_INFO=%7B%22storeAddress%22%3A%22%22%2C%22storeZip%22%3A%2294611%22%2C%22storeId%22%3A%223132%22%2C%22preference%22%3A%22J4U%22%7D; ECommSignInCount=0; SAFEWAY_MODAL_LINK=; SWY_SHARED_SESSION_INFO=%7B%22info%22%3A%7B%22COMMON%22%3A%7B%22userType%22%3A%22G%22%2C%22zipcode%22%3A%2294611%22%2C%22banner%22%3A%22safeway%22%2C%22preference%22%3A%22J4U%22%2C%22Selection%22%3A%22default%22%2C%22wfcStoreId%22%3A%225799%22%2C%22userData%22%3A%7B%7D%2C%22grsSessionId%22%3A%229e0a1024-b93c-4a50-9e57-b4060f76a292%22%2C%22siteType%22%3A%22C%22%2C%22customerType%22%3A%22%22%7D%2C%22J4U%22%3A%7B%22storeId%22%3A%223132%22%2C%22zipcode%22%3A%2294611%22%2C%22userData%22%3A%7B%7D%7D%2C%22SHOP%22%3A%7B%22storeId%22%3A%223132%22%2C%22zipcode%22%3A%2294611%22%2C%22userData%22%3A%7B%7D%7D%7D%7D; OptanonAlertBoxClosed=2023-10-14T00:23:35.847Z; incap_ses_444_1610353=PnKcA3GOUlvJ57I3r2gpBqjlKWUAAAAAppJKkB4owYUF3xFFgjAfgw==; OptanonConsent=isGpcEnabled=1&datestamp=Fri+Oct+13+2023+17%3A49%3A53+GMT-0700+(Pacific+Daylight+Time)&version=202306.2.0&browserGpcFlag=1&isIABGlobal=false&hosts=&consentId=cef5f5a1-b4e5-4d46-bca5-32954e7a6bb9&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0004%3A0%2CC0003%3A0&geolocation=%3B&AwaitingReconsent=false; nlbi_1610353_2147483392=og5pLIvDKUn3utjV6eNT2gAAAADVVjR2jVhC/O3PFAm0OVwO; reese84=3:PPgbDrmwLotMY8WhvHKaUg==:ZaqgLTyAyCTflNTEz19LIh6A6wM5TEg2a3nr5MrW4ilU/cKH07tAoD4BuKxuczZQVPSAnI+UpNJSXIRcgv6s3uvxsiqPEERaJRKSSZh5/TKQwkbKi+Sh+Z/3ePlYzYLtx0PYblX26eaINO740Yz3l/aHMI5tYaRtJWHlc70DeN3z/Tv4S2/CZNdVZA1o+x9oG/dQDFcH+JSWzMlAxInePUsKcxuDH/F+NMDidTzjw/2Q0DiQyQrfgPcv99TqXrP3BP7LDHtqXMB42Wz/aRFvS5nrFy5JbpxDYQmBy70GQFS/BaU88Tc8QUX924Tdy+sDFj40XbOrPt11aJajiih4ffWM90p1YzUrKOKuATvNjIMQu1LkNJO2pgnXRjqgV6kq/X2WhzNFkVNtNDXqi/FYoldJ/5fIuckR3HWOGIRKp4uCWHBz/ozq9IlkmIZInoCeMNP9Lmp13R5mRhlMcpiKHlfpYX+B78h5T9Iy1uu7gw5Y1UpnKtIhd5MCQsFpP5i3HoJmps+4/xV4xovyFS+/Iw==:tl72+pb0AACzKvMfBeBZmIv5y+tQkgWM57HmD0gSui0="
+					},
+					{
+						"key": "ocp-apim-subscription-key",
+						"value": "5e790236c84e46338f4290aa1050cdd4"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.safeway.com/shop/search-results.html?q=bananas"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Brave\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://www.safeway.com/abs/pub/xapi/pgmsearch/v1/search/products?request-id=1281697244598309126&url=https://www.safeway.com&pageurl=https://www.safeway.com&pagename=search&rows=30&start=0&search-type=keyword&storeid=3132&featured=true&search-uid=&q=bananas&sort=&featuredsessionid=&screenwidth=947&dvid=web-4.1search&channel=instore&cross-seller-max-count=14&wineshopstoreid=5799&wineshopwidgetid=nlvkox9e&timezone=America/Los_Angeles&zipcode=94611&pgm=mkp-crossseller,wineshop&banner=safeway",
+					"protocol": "https",
+					"host": [
+						"www",
+						"safeway",
+						"com"
+					],
+					"path": [
+						"abs",
+						"pub",
+						"xapi",
+						"pgmsearch",
+						"v1",
+						"search",
+						"products"
+					],
+					"query": [
+						{
+							"key": "request-id",
+							"value": "1281697244598309126"
+						},
+						{
+							"key": "url",
+							"value": "https://www.safeway.com"
+						},
+						{
+							"key": "pageurl",
+							"value": "https://www.safeway.com"
+						},
+						{
+							"key": "pagename",
+							"value": "search"
+						},
+						{
+							"key": "rows",
+							"value": "30"
+						},
+						{
+							"key": "start",
+							"value": "0"
+						},
+						{
+							"key": "search-type",
+							"value": "keyword"
+						},
+						{
+							"key": "storeid",
+							"value": "3132"
+						},
+						{
+							"key": "featured",
+							"value": "true"
+						},
+						{
+							"key": "search-uid",
+							"value": ""
+						},
+						{
+							"key": "q",
+							"value": "bananas"
+						},
+						{
+							"key": "sort",
+							"value": ""
+						},
+						{
+							"key": "featuredsessionid",
+							"value": ""
+						},
+						{
+							"key": "screenwidth",
+							"value": "947"
+						},
+						{
+							"key": "dvid",
+							"value": "web-4.1search"
+						},
+						{
+							"key": "channel",
+							"value": "instore"
+						},
+						{
+							"key": "cross-seller-max-count",
+							"value": "14"
+						},
+						{
+							"key": "wineshopstoreid",
+							"value": "5799"
+						},
+						{
+							"key": "wineshopwidgetid",
+							"value": "nlvkox9e"
+						},
+						{
+							"key": "timezone",
+							"value": "America/Los_Angeles"
+						},
+						{
+							"key": "zipcode",
+							"value": "94611"
+						},
+						{
+							"key": "pgm",
+							"value": "mkp-crossseller,wineshop"
+						},
+						{
+							"key": "banner",
+							"value": "safeway"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
